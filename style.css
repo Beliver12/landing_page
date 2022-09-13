@@ -1,6 +1,8 @@
 body{
     display: flex;
-    background-color: black;
+    flex-direction: column;
+    height: 3000px;
+    
 }
 ul{
     list-style: none;
@@ -24,7 +26,12 @@ a{
 .header{
     margin-left: 130px;
 }
-img{
+h1{
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #F9FAF8;
+}
+.header-img{
     height: 200px;
     width: 400px;
     margin-right: 130px;
@@ -36,7 +43,6 @@ img{
     background-color: #1F2937;
     color: white;
     height: 400px;
-
 }
 .container-2{
     display: flex;
@@ -44,14 +50,88 @@ img{
     flex-direction: row;
     justify-content: space-between;
     margin-top: 80px;
+    overflow:hidden;
 }
 .text-content{
     margin-left: 130px;
 }
-button{
+.header-text{
+    width: 360px;
+}
+.button-1{
     padding: 4px 18px;
     background-color: #3882F6;
     border: none;
     border-radius: 6px;
     color: white;
+}
+.header-2{
+    flex-shrink: 0;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.img-container{
+    display: flex;
+    justify-content: center;
+    gap: 26px;
+    text-align: center;
+    margin-top: 20px;
+}
+img{
+    height: 100px;
+    width: 100px;
+    border-radius: 8px;
+}
+.text{
+ width: 140px;
+}
+.body-2{
+    height: 400px;
+}
+.author-text{
+    width: 440px;
+    font-size: 1.2em; transform: scale(0.9, 1.5);
+    color: #1F2937;
+    font-weight: lighter;
+}
+.body-3{
+    display: flex;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #E5E7EB;
+}
+.author-container{
+  margin-left: 240px;
+  font-weight: 600;
+}
+.body-4{
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container-3{
+    color: white;
+    background-color: #3882F6;
+    height: 130px;
+    width: 800px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    border-radius: 6px;
+}
+.text-section{
+    margin-top: 20px;
+}
+.button-2{
+    height: 24px;
+    width: 90px;
+    margin-top: 60px;
+    border: 2px white solid;
+    color: white;
+    background-color: #3882F6;
+    border-radius: 6px;
 }
