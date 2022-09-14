@@ -1,7 +1,8 @@
 body{
     display: flex;
     flex-direction: column;
-    height: 3000px;
+    height: 1660px;
+    margin: 0;
     
 }
 ul{
@@ -134,4 +135,12 @@ img{
     color: white;
     background-color: #3882F6;
     border-radius: 6px;
+}
+.copyright-container{
+    background-color: #1F2937;
+    color: white;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
